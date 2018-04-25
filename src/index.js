@@ -1,6 +1,6 @@
 import registerServiceWorker from './registerServiceWorker'
 import { upcase } from './libs/utils'
-import './style.scss'
+import './styles.scss'
 
 const $root = document.getElementById('MOUNT_NODE')
 const title = upcase('Awesome Nail!')
