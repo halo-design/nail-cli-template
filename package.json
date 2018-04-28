@@ -4,16 +4,15 @@
   "description": "A Web Application",
   "main": "./src/index.js",
   "scripts": {
-    "serve": "nail-cli serve",
+    "help": "nail-cli --help",
+    "serve": "nail-cli serve -o",
+    "serve:p": "nail-cli serve -p -o",
     "build": "nail-cli build",
-    "build:anly": "nail-cli build --analyze",
-    "build:prev": "nail-cli build --preview",
+    "build:a": "nail-cli build -a",
     "unit": "nail-cli unit",
-    "unit:cov": "nail-cli unit --coverage",
+    "unit:c": "nail-cli unit -c",
     "e2e": "nail-cli e2e",
-    "e2e:open": "nail-cli e2e --open",
-    "prev-e2e": "nail-cli e2e --production",
-    "prev-e2e:open": "nail-cli e2e --open --production"
+    "e2e:o": "nail-cli e2e -o"
   },
   "author": "OwlAford",
   "license": "MIT",
@@ -23,6 +22,6 @@
   "dependencies": {
   },
   "devDependencies": {
-    "nail-cli": "0.3.3"
+    "nail-cli": "0.4.0"
   }
 }
