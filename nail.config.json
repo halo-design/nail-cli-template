@@ -1,0 +1,10 @@
+{
+  "pwa": true,
+  "publicPath": "/",
+  "proxyTable": {
+    "/api": {
+      "target": "http://www.example.com",
+      "changeOrigin": true
+    }
+  }
+}
