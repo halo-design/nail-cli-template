@@ -19,12 +19,12 @@
   "author": "OwlAford",
   "license": "MIT",
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "dependencies": {
   },
   "devDependencies": {
-    "cypress": "^2.1.0",
-    "nail-cli": "0.7.0"
+    "cypress": "^3.0.0",
+    "nail-cli": "0.7.2"
   }
 }
