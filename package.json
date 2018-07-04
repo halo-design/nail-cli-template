@@ -24,7 +24,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "cypress": "^3.0.0",
-    "nail-cli": "0.7.5"
+    "cypress": "^3.0.2",
+    "nail-cli": "0.7.6"
   }
 }
