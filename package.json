@@ -10,7 +10,6 @@
     "build": "nail-cli build",
     "build:a": "nail-cli build -a",
     "unit": "nail-cli unit",
-    "unit:c": "nail-cli unit -c",
     "e2e": "nail-cli e2e",
     "e2e:o": "nail-cli e2e -o",
     "lint": "eslint --ext .js,.jsx src/",
@@ -24,7 +23,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "@nail-cli/core": "1.4.2",
+    "@nail-cli/core": "1.4.6",
     "cypress": "^3.1.4"
   }
 }
