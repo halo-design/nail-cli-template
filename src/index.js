@@ -1,4 +1,3 @@
-import registerServiceWorker from './registerServiceWorker'
 import { upcase } from './libs/utils'
 import './styles.scss'
 
@@ -9,5 +8,3 @@ $root.innerHTML = `
   <div class="logo"></div>
   <h1>${title}</h1>
 `
-
-registerServiceWorker()
