@@ -1,6 +1,6 @@
 {
   "name": "nail-app",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A Web Application",
   "main": "./src/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "@nail-cli/core": "1.6.1",
+    "@nail-cli/core": "1.6.4",
     "cypress": "^3.2.0"
   }
 }
