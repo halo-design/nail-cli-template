@@ -1,6 +1,6 @@
-import React from "react";
-import { upcase } from "../src/libs/utils";
-import txt from "./nail.txt";
+import React from 'react';
+import { upcase } from '../src/libs/utils';
+import txt from './nail.txt';
 
 const App = () => (
   <div className="app">
