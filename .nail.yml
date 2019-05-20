@@ -1,4 +1,4 @@
 author: OwlAford
-configFile: nail.config.json
+configFile: nail.config.js
 orgSite: https://github.com/halo-design/nail-cli
 license: MIT
