@@ -1,12 +1,9 @@
-import registerServiceWorker from './registerServiceWorker'
-import { upcase } from './libs/utils'
-import './styles.scss'
+import registerServiceWorker from "./registerServiceWorker";
+import React from "react";
+import { render } from "react-dom";
+import App from "./App";
+import "./assets/styles/index.scss";
 
-const $root = document.getElementById('MOUNT_NODE')
-const title = upcase('Awesome Nail!')
+render(<App />, document.getElementById("MOUNT_NODE"));
 
-$root.innerHTML = `
-  <div class="logo"></div>
-  <h1>${title}</h1>
-`
-registerServiceWorker()
+registerServiceWorker();

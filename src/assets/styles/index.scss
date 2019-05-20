@@ -5,22 +5,22 @@
 
 @font-face {
   font-family: 'halofont';
-  src: url('./halo.ttf') format('truetype');
+  src: url('../fonts/halo.ttf') format('truetype');
 }
 
 body {
   .logo {
     height: 80px;
     width: 80px;
-    background: url(./logo.png) no-repeat;
+    background: url(../img/logo.png) no-repeat;
     background-size: 100% auto;
     margin: 30px auto;
   }
 
   h1 {
-    font-family: 'halofont' !important;
     font-size: 32px;
     line-height: 2;
     text-align: center;
+    font-family: 'halofont' !important;
   }
 }
