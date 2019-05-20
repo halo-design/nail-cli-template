@@ -25,7 +25,7 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@nail-cli/core": "1.7.1",
+    "@nail-cli/core": "1.7.3",
     "cypress": "^3.3.0"
   }
 }
